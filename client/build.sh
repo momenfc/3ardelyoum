@@ -28,7 +28,7 @@ if [ "$BUILD_TYPE" == "development" ]; then
   echo "📱 Building Development version..."
 else
   export APP_VARIANT=production
-  export APP_URL="https://tawredaat.com"
+  export APP_URL="https://3ardelyoum.com"
   PROFILE=production
   echo "🏗️ Building Production version..."
 fi

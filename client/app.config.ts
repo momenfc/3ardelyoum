@@ -16,10 +16,10 @@ const config: ExpoConfig = {
   },
   ios: {
     supportsTablet: true,
-    bundleIdentifier: 'com.momenfc.x3ardElYoum',
+    bundleIdentifier: 'com.3ardelyoum',
   },
   android: {
-    package: 'com.momenfc.x3ardElYoum',
+    package: 'com.3ardelyoum',
     adaptiveIcon: {
       foregroundImage: './assets/images/adaptive-icon.png',
       backgroundColor: '#ffffff',
@@ -48,6 +48,12 @@ const config: ExpoConfig = {
     eas: {
       projectId: 'df72b0af-c694-4d04-b145-739d2c18a07c',
     },
+  },
+
+  owner: 'momenfc',
+
+  updates: {
+    url: 'https://u.expo.dev/df72b0af-c694-4d04-b145-739d2c18a07c',
   },
 };
 
