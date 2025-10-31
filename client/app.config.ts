@@ -32,7 +32,7 @@ const config: ExpoConfig = {
     output: 'static',
     favicon: './assets/images/favicon.png',
   },
-  plugins: ['expo-router', 'expo-notifications'],
+  plugins: [['expo-dev-client', { launchMode: 'most-recent' }], 'expo-router', 'expo-notifications'],
   experiments: {
     typedRoutes: true,
   },
