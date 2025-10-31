@@ -12,17 +12,17 @@ const config: ExpoConfig = {
   splash: {
     image: './assets/images/splash-icon.png',
     resizeMode: 'contain',
-    backgroundColor: '#ffffff',
+    backgroundColor: '#FFA500',
   },
   ios: {
     supportsTablet: true,
-    bundleIdentifier: 'com.3ardelyoum',
+    bundleIdentifier: 'com.ardelyoum.app',
   },
   android: {
-    package: 'com.3ardelyoum',
+    package: 'com.ardelyoum.app',
     adaptiveIcon: {
       foregroundImage: './assets/images/adaptive-icon.png',
-      backgroundColor: '#ffffff',
+      backgroundColor: '#FFA500',
     },
     edgeToEdgeEnabled: true,
     predictiveBackGestureEnabled: false,
