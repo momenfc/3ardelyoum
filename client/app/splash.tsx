@@ -18,7 +18,7 @@ export default function Splash() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#fff' }}>
       <ActivityIndicator />
-      <Text style={{ marginTop: 12 }}>XXXXجارٍ التحميل...</Text>
+      <Text style={{ marginTop: 12 }}>جارٍ التحميل...</Text>
     </View>
   );
 }

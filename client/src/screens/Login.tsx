@@ -48,7 +48,7 @@ export default function LoginScreen() {
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
       <View style={{ flex: 1, backgroundColor: '#fff', padding: 16, justifyContent: 'center' }}>
-        <Text variant="headlineSmall" style={{ fontFamily: 'Cairo_700Bold', textAlign: 'right', marginBottom: 16, color: '#333' }}>
+        <Text variant="headlineSmall" style={{ fontFamily: 'Cairo_700Bold', marginBottom: 16, color: '#333' }}>
           تسجيل الدخول
         </Text>
         <TextInput

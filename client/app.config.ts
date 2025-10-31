@@ -20,6 +20,7 @@ const config: ExpoConfig = {
   },
   android: {
     package: 'com.ardelyoum.app',
+    googleServicesFile: './google-services.json',
     adaptiveIcon: {
       foregroundImage: './assets/images/adaptive-icon.png',
       backgroundColor: '#FFA500',

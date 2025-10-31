@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "682080832729",
+    "project_id": "ardelyoum-52f2f",
+    "storage_bucket": "ardelyoum-52f2f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682080832729:android:8f04e20eee1cc98684c2c8",
+        "android_client_info": {
+          "package_name": "com.ardelyoum.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYtSi8T7ugw5s_JNzrlSF4OwgorFeUpEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
